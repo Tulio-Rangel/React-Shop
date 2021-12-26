@@ -2,7 +2,7 @@ import React from "react";
 
 const App = () => {
     return (
-        <h1>Hola Mundo desde React :D</h1>
+        <><h1>Hola Mundo desde React :D</h1><h2>Resolví el problema del webpack</h2></>
     );
 };
 
