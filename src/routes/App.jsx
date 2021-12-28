@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../containers/Layout";
 import Login from "../containers/login";
 import RecoveryPassword from "../containers/RecoveryPassword";
+import NotFound from "../pages/NotFound";
 import "../styles/global.css";
 
 const App = () => {
