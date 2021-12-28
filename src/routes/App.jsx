@@ -4,6 +4,7 @@ import Layout from "../containers/Layout";
 import Login from "../containers/login";
 import RecoveryPassword from "../containers/RecoveryPassword";
 import NotFound from "../pages/NotFound";
+import Home from "../pages/Home";
 import "../styles/global.css";
 
 const App = () => {
