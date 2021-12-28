@@ -1,9 +1,13 @@
 import React from "react";
+import Layout from "../containers/Layout";
+import Login from "../containers/login";
 import "../styles/global.css";
 
 const App = () => {
     return (
-        <><h1>Hola Mundo desde React :D</h1><h2>Resolví el problema del webpack</h2></>
+        <Layout>
+            <Login/>
+        </Layout>
     );
 };
 
