@@ -10,7 +10,7 @@ const Header = () => {
       <img src={IconMenu} alt="menu" className="menu" />
 
       <div className="navbar-left">
-        <img src={Logo} alt="logo" className="logo" />
+        <img src={Logo} alt="logo" className="nav-logo" />
         <ul>
           <li>
             <a href="/">All</a>
