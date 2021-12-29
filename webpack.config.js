@@ -11,7 +11,12 @@ module.exports = {
     },
     mode: "development",
     resolve: {
-        extensions: [".js", ".jsx"]
+        extensions: [".js", ".jsx"],
+        alias: {
+            "@components": path.resolve(__dirname, "src/components"),
+            "@containers": path.resolve(__dirname, "src/containers"),
+            "@pages": path.resolve(__dirname, "src/pages")
+        }
     },
     module: {
         rules: [
@@ -40,6 +45,7 @@ module.exports = {
             },
             {
                 test: /\.(png|jp(e*)g|svg|gif)$/,
+                //type: "asset",
                 use: [
                     {
                         loader: "file-loader",
