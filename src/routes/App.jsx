@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../containers/Layout";
-import Login from "../containers/login";
-import RecoveryPassword from "../containers/RecoveryPassword";
+import Login from "../pages/login";
+import RecoveryPassword from "../pages/RecoveryPassword";
 import NotFound from "../pages/NotFound";
 import Home from "../pages/Home";
 import "../styles/global.css";
