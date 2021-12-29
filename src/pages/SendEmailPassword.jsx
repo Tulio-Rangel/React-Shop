@@ -3,7 +3,7 @@ import "../styles/SendEmailPassword.scss";
 import logo from "../../frontend/logos/logo_yard_sale.svg";
 import emailIcon from "../../frontend/icons/email.svg";
 
-const RecoveryPassword = () => {
+const SendEmailPassword = () => {
     return (
         <div className="login">
         <div className="form-container">
@@ -27,4 +27,4 @@ const RecoveryPassword = () => {
     );
 };
 
-export default RecoveryPassword;
+export default SendEmailPassword;
