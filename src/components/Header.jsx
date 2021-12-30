@@ -47,7 +47,7 @@ const Header = () => {
       <div className="navbar-right">
         <ul>
           <li className="navbar-email" onClick={handleToggle}>amadeus@example.com</li>
-          <li className="navbar-shopping-cart" onClick={setToggleOrders(!toggleOrders)}>
+          <li className="navbar-shopping-cart" onClick={() => setToggleOrders(!toggleOrders)}>
             <img src={IconShoppingCart} alt="shopping cart" />
             {state.cart.length > 0 ? <div>{state.cart.length}</div> : null}
           </li>
