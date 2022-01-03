@@ -1,5 +1,18 @@
-This will be the readme
+This is a e-shop created with Reacj.js, you can interact with the web-page like any other e-shop.
+ 
+* You can login: /login
+* You can crete an account: /create-account
+* You can see your orders: /orders
 
-At this moment the you can add products to the cart a see the total amount, but you can´t delete products
+and more:
 
-Next Step: Delete products function.
+All paths:
+
+* /login
+* /password-recovery
+* /send-email
+* /new-password
+* my-account
+* /create-account
+* /checkout
+* /orders
