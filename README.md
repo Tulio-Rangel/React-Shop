@@ -16,3 +16,5 @@ All paths:
 * /create-account
 * /checkout
 * /orders
+
+I will update this readme soon (I think)
